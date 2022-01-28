@@ -1,5 +1,7 @@
 # Azeron-Clone-Controller
 
+* EDIT: check also my variant as a full USB joystick for better feedback by the mini-stick. https://github.com/mano82/Azeron-Clone-FullJoystick
+
 Original code by AnonEngineering
 > Sample code for a 3D printed clone of the Azeron Game Pad controller. Runs on Pro Micro  ATmega32U4, emulating a HID keyboard over USB.
 >
