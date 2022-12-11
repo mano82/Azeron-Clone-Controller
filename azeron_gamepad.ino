@@ -243,7 +243,7 @@ void readKeys() {
   for (int i = 0; i <= 12; i++)  {
     if (digitalRead(dSwitch[i].pin) == LOW) {
       if (dSwitch[i].wasPressed == false)  {
-        KEY_PRESS(dSwitch[i].cmd)
+        KEY_PRESS(dSwitch[i].cmd);
         
         dSwitch[i].wasPressed = true;
       }
